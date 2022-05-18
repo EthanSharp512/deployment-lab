@@ -6,7 +6,7 @@ const rollDice = () => {
     .then(res => {
         const data = res.data;
         console.log(res.data)
-        document.getElementById('dice-roll-output').textContent = data.value;
+        document.getElementById('dice-roll-output').textContent = data.value[0];
     });
 };
 
