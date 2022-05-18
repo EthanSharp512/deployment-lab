@@ -3,7 +3,7 @@ const rollDiceInput = document.getElementById()
 
 
 const rollDice = () => {
-    axios.get("https://f22deploymentlab.herokuapp.com/api/rolldice")
+    axios.get("/api/rolldice")
     .then(res => {
         const data = res.data;
         document.getElementById('dice-roll-output').textContent = data;
