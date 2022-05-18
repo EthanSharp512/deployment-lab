@@ -1,22 +1,12 @@
-const colorBtn = document.querySelector('#color');
-const placeBtn = document.querySelector('#place');
-const ritualBtn = document.querySelector('#ritual');
+const rollDiceBtn = document.querySelector('#dice-roll');
 
 
-colorBtn.addEventListener('click', () => {
-    alert('Black is my favorite color.')
-})
+const rollDice = () => {
+    axios.get("http://localhost:4000/api/rolldice/")
+    .then(res => {
+        const data = res.data;
+        alert(data);
+    });
+};
 
-
-
-
-const throwdice1 = () => ~~(Math.random() * 6) + 1;
-const throwdice2 = () => ~~(Math.random() * 6) + 1;
-
-
-throwdice1();
-throwdice2();
-
-
-
-
+rollDiceBtn.addEventListener('click', rollDice)
