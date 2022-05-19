@@ -7,7 +7,6 @@ const rollDice = () => {
         const data = res.data;
         console.log(res.data)
         document.getElementById('dice-roll-output').textContent = (`You rolled ${data[0]} and ${data[1]}!`);
-        document.getElementById('fate').textContent = data.message;
     });
 };
 
@@ -16,7 +15,7 @@ const diceMessage = () => {
     .then(res => {
         const data = res.data;
         console.log(res.data)
-        document.getElementById('fate').textContent = data.message;
+        document.getElementById('fate').textContent = data;
     });
 };
 
