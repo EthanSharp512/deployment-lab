@@ -1,11 +1,6 @@
 const rollDiceBtn = document.querySelector('#dice-roll');
 const divs = document.querySelectorAll('#dicegif');
 
-rollDiceBtn.addEventListener('click', function(){
-    divs.style.display = 'inline';
-    setTimeout((divs.style.display = 'block'), 1000);
-});
-
 const rollDice = () => {
     axios.get("/api/rolldice")
     .then(res => {
