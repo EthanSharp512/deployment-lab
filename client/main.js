@@ -20,4 +20,4 @@ const rollDice = () => {
     });
 };
 
-setTimeout(rollDiceBtn.addEventListener('click', rollDice), 1000)
+rollDiceBtn.addEventListener('click', setTimeout(rollDice, 1000))
