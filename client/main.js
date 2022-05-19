@@ -18,5 +18,4 @@ const rollDice = () => {
 rollDiceBtn.addEventListener('click', function() {
     divs.style.display = 'inline';
     setTimeout((divs.style.display = 'block'), 1000);
-    setTimeout(rollDice, 1000)
 })
