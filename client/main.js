@@ -16,6 +16,6 @@ const rollDice = () => {
 };
 
 rollDiceBtn.addEventListener('click', function() {
-    divs.style.display = 'inline';
-    setTimeout((divs.style.display = 'block'), 1000);
+    divs.style.visibility = 'visible';
+    setTimeout((divs.style.visibility = 'hidden'), 1000);
 })
