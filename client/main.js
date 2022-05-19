@@ -11,5 +11,13 @@ const rollDice = () => {
     });
 };
 
+const diceMessage = () => {
+    axios.get("/api/rolldice")
+    .then(res => {
+        const data = res.data;
+        console.log(res.data)
+        document.getElementById('fate').textContent = data.message;
+    });
+};
 
-rollDiceBtn.addEventListener('click', rollDice)
+rollDiceBtn.addEventListener('click', rollDice, diceMessage)
