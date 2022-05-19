@@ -1,5 +1,5 @@
 const rollDiceBtn = document.querySelector('#dice-roll');
-const gif = document.querySelectorAll('#dicegif');
+const gif = document.querySelector('#dicegif');
 
 
 const gifPop = () => {
@@ -22,6 +22,4 @@ const rollDice = () => {
 };
 
 rollDiceBtn.addEventListener('click', gifPop) 
-    divs.style.visibility = 'visible';
-    setTimeout((divs.style.visibility = 'hidden'), 1000);
 
