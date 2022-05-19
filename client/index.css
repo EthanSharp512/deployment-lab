@@ -1,3 +1,146 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #background {
     background-image: url('casino.jpg');
+    background-size: 100% 400px;
+    border-radius: 10px;
+    background-position: left top;
+    background-repeat: repeat;
+    border: 5px solid rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#skull {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    float: inherit;
+    padding-top: 100px;
+}
+
+#dice-roll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    background-image: url('dicefall.gif');
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Times New Roman', serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.estrellas {
+    position: relative;
+    width: 520px;
+    height:250px;
+    margin: 0 auto;
+    font-size: 65px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .estrellas span {
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    left: 50%;
+    width: 70px;
+    height: 300px;
+    margin-left: -35px;
+    text-align: center;
+    line-height: 70px;
+    transform-origin: bottom center;
+  }
+  .estrellas span:nth-of-type(1)  {
+    transform: rotate(55deg);
+  }
+  .estrellas span:nth-of-type(2)  {
+    transform: rotate(47deg);
+  }
+  .estrellas span:nth-of-type(3)  {
+    transform: rotate(39deg);
+  }
+  .estrellas span:nth-of-type(4)  {
+    transform: rotate(31deg);
+  }
+  .estrellas span:nth-of-type(5)  {
+    transform: rotate(23deg);
+  }
+  .estrellas span:nth-of-type(6)  {
+    transform: rotate(15deg);
+  }
+  .estrellas span:nth-of-type(7)  {
+    transform: rotate(9deg);
+  }
+  .estrellas span:nth-of-type(8)  {
+    transform: rotate(1deg);
+  }
+  .estrellas span:nth-of-type(9)  {
+    transform: rotate(-9deg);
+  }
+  .estrellas span:nth-of-type(10)  {
+    transform: rotate(-15deg);
+  }
+  .estrellas span:nth-of-type(11)  {
+    transform: rotate(-24deg);
+  }
+  .estrellas span:nth-of-type(12)  {
+    transform: rotate(-31deg);
+  }
+  .estrellas span:nth-of-type(13)  {
+    transform: rotate(-37deg);
+  }
+  .estrellas span:nth-of-type(14)  {
+    transform: rotate(-45deg);
+  }
+  .estrellas span:nth-of-type(15)  {
+    transform: rotate(-53deg);
+  }
+
+#left{
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#right{
+    float: right;
+    margin-top: 50px;
+}
+
+#dicegif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
 }
