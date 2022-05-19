@@ -3,11 +3,11 @@ const gif = document.querySelector('#dicegif');
 const output = document.querySelector('.output')
 
 const gifPop = () => {
-    gif.style.visibility = 'visible';
     output.style.visibility = 'hidden';
+    gif.style.visibility = 'visible';
     setTimeout(function () {(gif.style.visibility = 'hidden')}, 1000);
     setTimeout(rollDice, 1000);
-    output.style.visibility = 'visible';
+    setTimeout((output.style.visibility = 'visible'), 1000);
 
 
 }
