@@ -164,3 +164,7 @@ h2 {
     -webkit-text-stroke-color: black;
     color: rgb(255, 255, 255);
 }
+
+#fire {
+    background-repeat: repeat-x;
+}
