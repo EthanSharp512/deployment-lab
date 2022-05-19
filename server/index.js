@@ -11,7 +11,7 @@ const {rollDice} = require('./controller')
 
 app.get("/api/rolldice", rollDice);
 
-const port = process.env.PORT || 4005;
+const port = process.env.PORT || 5500;
 
 app.listen(port, () => {
     console.log(`Listening on ${port}`);
