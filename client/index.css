@@ -56,6 +56,7 @@ h2 {
     -webkit-text-stroke-color: black;
     color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 .estrellas {
@@ -140,12 +141,12 @@ h2 {
 
 #dicegif {
     display: block;
-    float: left;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
     visibility: hidden;
     padding: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 #dice-roll-output {
@@ -157,6 +158,7 @@ h2 {
     -webkit-text-stroke-color: black;
     color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 #fate {
@@ -167,6 +169,7 @@ h2 {
     font-style: italic;
     color: rgb(255, 255, 255);
     padding: 0px 0px 0px 0px;
+    margin: 10px 10px 10px 10px;
 }
 
 #fire {
