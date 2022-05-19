@@ -48,7 +48,6 @@ body {
 }
 
 h2 {
-    position: relative;
     text-align: center;
     font-size: 50px;
     font-weight: 900;
@@ -166,5 +165,6 @@ h2 {
 }
 
 #fire {
+    background-image: url('fire.gif');
     background-repeat: repeat-x;
 }
