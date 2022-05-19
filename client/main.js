@@ -1,5 +1,11 @@
 const rollDiceBtn = document.querySelector('#dice-roll');
-const divs = document.querySelectorAll('#dicegif');
+const gif = document.querySelectorAll('#dicegif');
+
+
+const gifPop = () => {
+    gif.style.visibility = 'visible';
+    setTimeout(function () {(gif.style.visibility = 'hidden')}, 1000);
+}
 
 const rollDice = () => {
     axios.get("/api/rolldice")
@@ -15,7 +21,7 @@ const rollDice = () => {
     });
 };
 
-rollDiceBtn.addEventListener('click', function() {
+rollDiceBtn.addEventListener('click', gifPop) 
     divs.style.visibility = 'visible';
     setTimeout((divs.style.visibility = 'hidden'), 1000);
-})
+
