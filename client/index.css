@@ -167,9 +167,14 @@ h2 {
 
 #fire {
     position: relative;
+    display: inline-block;
     bottom: 0;
     width: 100%;
-    height: 100px; 
+    height: 150px; 
     background-image: url('fire.gif');
     background-repeat: repeat-x;
+}
+
+.output {
+  visibility: hidden;
 }
