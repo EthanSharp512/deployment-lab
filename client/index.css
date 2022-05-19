@@ -140,7 +140,7 @@ h2 {
 
 #dicegif {
     display: block;
-    float:inherit;
+    float: left;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
