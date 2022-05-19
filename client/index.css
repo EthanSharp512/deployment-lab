@@ -138,11 +138,10 @@ h2 {
 }
 
 #dicegif {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75px;
-    display: none;
+    display: block;
 }
 
 #dice-roll-output {
